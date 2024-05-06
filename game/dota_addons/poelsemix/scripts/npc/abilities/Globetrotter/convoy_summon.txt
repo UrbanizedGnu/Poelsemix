@@ -1,0 +1,44 @@
+"convoy_summon"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_lua"
+	"ScriptFile" "heroes/hero_globetrotter/convoy_summon"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+    "AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+    "AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+	"AbilityTextureName" "wagon_smack"
+
+	"precache"
+	{
+        "soundfile" "soundevents/globetrotter_soundevent.vsndevts"
+	}
+
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastPoint"				"0.0"
+	"AbilityCastRange"				"0"
+
+	// Time		
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"				"60 55 45 40 30"
+	
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"120"
+	
+	"AbilitySpecial"
+	{
+        		"01"
+		{
+			"var_type" "FIELD_FLOAT"
+			"movement_speed_bonus" "300 500 600 900"
+		}
+		"02"
+		{
+			"var_type" "FIELD_FLOAT"
+			"attack_speed_bonus" "9000"
+		}
+	}
+}

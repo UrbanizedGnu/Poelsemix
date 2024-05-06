@@ -1,0 +1,41 @@
+"falck"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_lua"
+	"ScriptFile" "heroes/hero_globetrotter/falck"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_TOGGLE"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_NONE"
+	"AbilityTextureName" "falck"
+	
+	"precache"
+	{
+	}
+
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastPoint"				"0.0"
+	"AbilityCastRange"				"300"
+
+	// Time		
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"				"30 26 22 18"
+	
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"120"
+	
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type" "FIELD_FLOAT"
+			"repair_cost" "600"
+		}
+		"02"
+		{
+			"var_type" "FIELD_FLOAT"
+			"insurance_time" "0.5 1 1.5 2"
+		}
+	}
+}

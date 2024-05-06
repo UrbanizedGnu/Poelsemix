@@ -1,0 +1,1 @@
+convoy_summon = class({})

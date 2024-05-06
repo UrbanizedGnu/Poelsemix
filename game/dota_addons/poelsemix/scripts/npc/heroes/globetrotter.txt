@@ -1,0 +1,16 @@
+"globetrotter"
+{
+	// HERO: Centaur Warrunner
+	"override_hero"				"npc_dota_hero_centaur"			// Hero to override
+	"DisableWearables" "1"
+	"model" "models/globetrotter/globetrotter.vmdl"
+	"ModelScale" "15"
+	"Ability1" "no_wagon_smack"
+	"Ability2" "emergency_lane"
+	"Ability3" "falck"				
+	"Ability4" "heavy_cargo"
+	"Ability5" "fragile_cargo"
+	"Ability6" "christmas_market"
+	"MovementSpeed"               "280"
+	"StatusHealth"                "750"								
+}

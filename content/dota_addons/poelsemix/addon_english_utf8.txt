@@ -1657,20 +1657,20 @@
 		"DOTA_Tooltip_ability_item_hilt_ancient_Description"                              "Brimming with potential."
 		"DOTA_Tooltip_ability_item_hilt_ancient_int"                                      "INT:"
 
-		"DOTA_Tooltip_ability_item_hilt_arma"                                             "Hilt Arma"
+		"DOTA_Tooltip_ability_item_hilt_arma"                                             "Armadyl Hilt"
 		"DOTA_Tooltip_ability_item_hilt_arma_Description"                                 "Brimming with potential."
 		"DOTA_Tooltip_ability_item_hilt_arma_agility"                                     "AGILITY:"
 
-		"DOTA_Tooltip_ability_item_hilt_bandos"                                           "Hilt Bandos"
+		"DOTA_Tooltip_ability_item_hilt_bandos"                                           "Bandos Hilt"
 		"DOTA_Tooltip_ability_item_hilt_bandos_Description"                               "Brimming with potential."
 		"DOTA_Tooltip_ability_item_hilt_bandos_str"                                       "STR:"
 
-		"DOTA_Tooltip_ability_item_hilt_sara"                                             "Hilt Sara"
+		"DOTA_Tooltip_ability_item_hilt_sara"                                             "Saradomin Hilt"
 		"DOTA_Tooltip_ability_item_hilt_sara_Description"                                 "Brimming with potential."
 		"DOTA_Tooltip_ability_item_hilt_sara_health"                                      "HEALTH:"
-		"DOTA_Tooltip_ability_item_hilt_sara_mama"                                        "MAMA:"
+		"DOTA_Tooltip_ability_item_hilt_sara_mana"                                        "MANA:"
 
-		"DOTA_Tooltip_ability_item_hilt_zamorak"                                          "Hilt Zamorak"
+		"DOTA_Tooltip_ability_item_hilt_zamorak"                                          "Zamorak Hilt"
 		"DOTA_Tooltip_ability_item_hilt_zamorak_Description"                              "Brimming with potential."
 		"DOTA_Tooltip_ability_item_hilt_zamorak_damage"                                   "DAMAGE:"
 

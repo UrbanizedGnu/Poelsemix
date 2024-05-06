@@ -1,0 +1,45 @@
+"heavy_cargo"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_lua"
+	"ScriptFile" "heroes/hero_globetrotter/heavy_cargo"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_TOGGLE"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_NONE"
+	"AbilityTextureName" "heavy_cargo"
+	
+	"precache"
+	{
+	}
+
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastPoint"				"0.0"
+
+	// Time		
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"				"30"
+	
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"20"
+	
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type" "FIELD_FLOAT"
+			"movement_reduction_percentage" "-50 -45 -40"
+		}
+		"02"
+		{
+			"var_type" "FIELD_FLOAT"
+			"attack_increase_percentage" "40 44 48"
+		}
+		"03"
+		{
+			"var_type" "FIELD_FLOAT"
+			"attack_speed_reduction_percentage" "-30 -28 -24 -20"
+		}
+	}
+}

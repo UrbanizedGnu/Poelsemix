@@ -1,0 +1,50 @@
+"fragile_cargo"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_lua"
+	"ScriptFile" "heroes/hero_globetrotter/fragile_cargo"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_TOGGLE"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_NONE"
+	"AbilityTextureName" "fragile_cargo"
+	
+	"precache"
+	{
+	}
+
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastPoint"				"0.0"
+
+	// Time		
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"				"30"
+	
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"20"
+	
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type" "FIELD_FLOAT"
+			"movement_speed_percentage" "20 25 30"
+		}
+		"02"
+		{
+			"var_type" "FIELD_FLOAT"
+			"attack_speed_percentage" "20 25 30"
+		}
+		"03"
+		{
+			"var_type" "FIELD_FLOAT"
+			"armor_reduction_percentage" "-70 -65 -60"
+		}
+		"04"
+		{
+			"var_type" "FIELD_FLOAT"
+			"attack_damage_percentage" "40 45 50"
+		}
+	}
+}
